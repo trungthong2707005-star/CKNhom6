@@ -1,0 +1,6 @@
+@thong3_HostAddress = http://localhost:5013
+
+GET {{thong3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

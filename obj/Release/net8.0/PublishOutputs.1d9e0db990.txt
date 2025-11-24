@@ -1,0 +1,12 @@
+C:\thong3\CKNhom6\publish\thong3.exe
+C:\thong3\CKNhom6\publish\appsettings.Development.json
+C:\thong3\CKNhom6\publish\appsettings.json
+C:\thong3\CKNhom6\publish\thong3.dll
+C:\thong3\CKNhom6\publish\thong3.deps.json
+C:\thong3\CKNhom6\publish\thong3.runtimeconfig.json
+C:\thong3\CKNhom6\publish\thong3.pdb
+C:\thong3\CKNhom6\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\thong3\CKNhom6\publish\Microsoft.OpenApi.dll
+C:\thong3\CKNhom6\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\thong3\CKNhom6\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\thong3\CKNhom6\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

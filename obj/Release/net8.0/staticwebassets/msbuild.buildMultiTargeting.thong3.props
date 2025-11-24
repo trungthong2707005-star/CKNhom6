@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\thong3.props" />
+</Project>
