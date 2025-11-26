@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Manager</title>
+    <style>
+        /* UI cơ bản */
+        body { font-family: sans-serif; padding: 20px; }
+        .form-group { margin-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        .pagination { margin-top: 10px; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Quản lý Danh bạ</h1>
+
+    <div style="border: 1px solid #ccc; padding: 15px;">
+        <h3>Thông tin liên hệ</h3>
+        <input type="hidden" id="contactId">
+        <div class="form-group"><input type="text" id="name" placeholder="Tên"></div>
+        <div class="form-group"><input type="text" id="phone" placeholder="SĐT"></div>
+        <div class="form-group"><input type="email" id="email" placeholder="Email"></div>
+        <div class="form-group"><input type="text" id="note" placeholder="Ghi chú"></div>
+        <button onclick="saveContact()">Lưu (Cần Key)</button>
+        <button onclick="clearForm()">Hủy</button>
+        <p id="msg" class="error"></p>
+    </div>
+
+    <div style="margin-top: 20px;">
+        <input type="text" id="search" placeholder="Tìm theo Tên/SĐT...">
+        <button onclick="loadContacts()">Tìm kiếm</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th><th>Tên</th><th>SĐT</th><th>Email</th><th>Ghi chú</th><th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <div class="pagination">
+        <button onclick="changePage(-1)">Trước</button>
+        <span id="pageInfo">Trang 1</span>
+        <button onclick="changePage(1)">Sau</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
