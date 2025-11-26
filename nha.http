@@ -1,0 +1,6 @@
+@nha_HostAddress = http://localhost:5157
+
+GET {{nha_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
