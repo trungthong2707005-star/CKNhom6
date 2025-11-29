@@ -59,7 +59,7 @@ PUT                       /api/contacts/{id}          Cập nhật liên hệ   
 DELETE                    /api/contacts/{id}          Xóa liên hệ                    Key
 
        
-       Note: API Key mặc định là 123456
+       Note: API Key mặc định là MySecretKey123
 
 
 
